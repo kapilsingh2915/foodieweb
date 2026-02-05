@@ -4,8 +4,8 @@ import ContactNav from "../components/navbar/ContactNav";
 import MenuBar from "../components/navbar/MenuBar";
 import Footer from "../components/footer/Footer";
 
-//  1st image is used in the TOP section,
-// and 3rd image is used in the MIDDLE dark hero 
+//1st image is used in the TOP section,
+// and 3rd image is used in the MIDDLE dark hero
 import plateImg from "../assets/1st image.png";   
 import contactBg from "../assets/1st image.2.png"; 
 import darkHeroBg from "../assets/3rd image.png"; 
