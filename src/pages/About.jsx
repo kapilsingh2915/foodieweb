@@ -4,13 +4,12 @@ import ContactNav from "../components/navbar/ContactNav";
 import MenuBar from "../components/navbar/MenuBar";
 import Footer from "../components/footer/Footer";
 
-// Images you added from Figma
-// NOTE: 1st image is used in the TOP section,
-// and 3rd image is used in the MIDDLE dark hero (as you requested).
-import plateImg from "../assets/1st image.png";   // big plate photo at the top
-import contactBg from "../assets/1st image.2.png"; // (kept for future use, not required now)
-import darkHeroBg from "../assets/3rd image.png"; // dark restaurant hero in the middle
-import chefImg from "../assets/2nd image.png";    // chef preparing food
+//  1st image is used in the TOP section,
+// and 3rd image is used in the MIDDLE dark hero 
+import plateImg from "../assets/1st image.png";   
+import contactBg from "../assets/1st image.2.png"; 
+import darkHeroBg from "../assets/3rd image.png"; 
+import chefImg from "../assets/2nd image.png";    
 
 export default function About() {
   return (
@@ -21,7 +20,7 @@ export default function About() {
       </header>
 
       <main>
-        {/* Section 1: big plate + "Come and visit us" card + text */}
+        {/* Section 1: big plate and  card and text */}
         <section className={styles.topSection}>
           <div className={styles.container}>
             <div className={styles.topGrid}>
@@ -74,7 +73,7 @@ export default function About() {
           </div> */}
         </section>
 
-        {/* Section 3: info + statistics + chef image */}
+        {/* Section 3: info and statistics and chef image */}
         <section className={styles.infoSection}>
           <div className={styles.container}>
             <div className={styles.infoGrid}>
@@ -181,4 +180,3 @@ export default function About() {
     </div>
   );
 }
-
